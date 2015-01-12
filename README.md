@@ -2,14 +2,14 @@
 A Homebrew formula for https://iojs.org.
 
 ## How do I install this formula?
-`brew install smockle/homebrew-iojs/iojs`
+`brew install smockle/iojs/iojs`
 
 Or `brew tap smockle/homebrew-iojs` and then `brew install iojs`.
 
 Or install via URL (which will not receive updates):
 
 ```
-brew install https://raw.githubusercontent.com/smockle/homebrew-iojs/master/iojs.rb
+brew install https://raw.githubusercontent.com/smockle/homebrew-iojs/master/Formula/iojs.rb
 ```
 
 ## Documentation
