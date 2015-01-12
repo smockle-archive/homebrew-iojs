@@ -1,8 +1,8 @@
 # Note that x.even are stable releases, x.odd are devel releases
 class Iojs < Formula
   homepage "https://iojs.org/"
-  url "https://iojs.org/download/nightly/v1.0.0-nightly201501111b8f37bb4d/iojs-v1.0.0-nightly201501111b8f37bb4d.tar.gz"
-  sha256 "c69edc1cdd13db6c98dc9c4af01d672bae69e1eca43f2d3bfa007c142e9255b3"
+  url "https://iojs.org/download/nightly/v1.0.0-nightly2015011284fa1f8c46/iojs-v1.0.0-nightly2015011284fa1f8c46.tar.gz"
+  sha256 "0effc6eb79e1b846d2bc917b2d91eb0a5699e0dba3cdcb1ffd3b8e5b970bba62"
   revision 1
 
   head do
