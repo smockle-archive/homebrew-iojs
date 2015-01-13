@@ -1,8 +1,8 @@
 class Iojs < Formula
   homepage "https://iojs.org/"
-  url "https://iojs.org/download/nightly/v1.0.0-nightly2015011284fa1f8c46/iojs-v1.0.0-nightly2015011284fa1f8c46.tar.gz"
-  sha256 "a378054d4fd0914c173c38933fcd02822731a76dafa4da5c55d83a954873ba37"
-  revision 2
+  url "https://iojs.org/download/nightly/v1.0.0-nightly201501135ea716d895/iojs-v1.0.0-nightly201501135ea716d895.tar.gz"
+  sha256 "f6ac6384910d8aa635f751d880d594c434fb40247a188f3e3fdc6694586f705b"
+  revision 1
 
   head do
     url "https://github.com/iojs/io.js.git", :branch => "v1.x"
