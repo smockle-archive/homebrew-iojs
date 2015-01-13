@@ -1,4 +1,3 @@
-# Note that x.even are stable releases, x.odd are devel releases
 class Iojs < Formula
   homepage "https://iojs.org/"
   url "https://iojs.org/download/nightly/v1.0.0-nightly2015011284fa1f8c46/iojs-v1.0.0-nightly2015011284fa1f8c46.tar.gz"
@@ -7,9 +6,6 @@ class Iojs < Formula
 
   head do
     url "https://github.com/iojs/io.js.git", :branch => "v1.x"
-
-    depends_on "pkg-config" => :build
-    depends_on "icu4c"
   end
 
   deprecated_option "enable-debug" => "with-debug"
@@ -25,20 +21,13 @@ class Iojs < Formula
   end
 
   resource "npm" do
-    url "https://registry.npmjs.org/npm/-/npm-2.1.17.tgz"
-    sha1 "80fa7873188659037ec0ed8ebc95c2b2723c8ac4"
+    url "https://registry.npmjs.org/npm/-/npm-2.1.18.tgz"
+    sha1 "e2af4c5f848fb023851cd2ec129005d33090bd57"
   end
 
   def install
     args = %W{--prefix=#{prefix} --without-npm}
     args << "--debug" if build.with? "debug"
-
-    # This should eventually be able to use the system icu4c, but right now
-    # it expects to find this dependency using pkgconfig.
-    if build.head?
-      ENV.prepend_path "PKG_CONFIG_PATH", "#{Formula["icu4c"].opt_prefix}/lib/pkgconfig"
-      args << "--with-intl=system-icu"
-    end
 
     system "./configure", *args
     system "make", "install"
