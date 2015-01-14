@@ -1,7 +1,7 @@
 class Iojs < Formula
   homepage "https://iojs.org/"
-  url "https://iojs.org/dist/v1.0.0/iojs-v1.0.0.tar.gz"
-  sha256 "dcc6ccd99fffa20ebe59b35acca51150cfd68171cbf36fee210b3f5480964d05"
+  url "https://iojs.org/dist/v1.0.1/iojs-v1.0.1.tar.gz"
+  sha256 "c26052dad5d9ccd8a7b9134806994ebf2d217a57d6efd5633e01c5cc1dcdedc5"
   revision 1
 
   head do
