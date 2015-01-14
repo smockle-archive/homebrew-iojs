@@ -1,7 +1,7 @@
 class Iojs < Formula
   homepage "https://iojs.org/"
-  url "https://iojs.org/download/nightly/v1.0.0-nightly201501135ea716d895/iojs-v1.0.0-nightly201501135ea716d895.tar.gz"
-  sha256 "c412a95bc44197f75293962040cccfbb9a34bb5f47aa8195a413bc163d98108a"
+  url "https://iojs.org/dist/v1.0.0/iojs-v1.0.0.tar.gz"
+  sha256 "dcc6ccd99fffa20ebe59b35acca51150cfd68171cbf36fee210b3f5480964d05"
   revision 1
 
   head do
