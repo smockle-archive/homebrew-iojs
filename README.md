@@ -1,3 +1,5 @@
+**NOTE**: Work is ongoing to get an io.js formula into the official Homebrew tap. Follow [the progress here](https://github.com/Homebrew/homebrew/pull/35853)!
+
 # homebrew-iojs
 A Homebrew formula for https://iojs.org.
 
